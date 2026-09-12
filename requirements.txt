@@ -1,0 +1,15 @@
+google-adk
+python-dotenv
+openai
+litellm>=1.75.5
+google-genai
+google-adk[extensions]
+pandas
+requests
+pydantic
+openpyxl
+playwright
+schedule
+streamlit
+matplotlib
+seaborn

@@ -1,0 +1,27 @@
+# Secrets
+aegis_agent/.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ADK local state
+.adk/
+
+# Datos (pesados / generados / privados) - el codigo y las muestras chicas se versionan
+data/
+data_staging/
+data_output/
+data_muestral/
+data_scraped/
+data_scraped_test/
+temp_uploads/
+
+# Base de datos del tablero (se regenera corriendo el pipeline)
+tablero_seguimiento/aegis.db
+
+# Playwright
+test-results/
